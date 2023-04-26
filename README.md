@@ -66,9 +66,11 @@ Im Frontend läuft das User-Interface mit den Bedienelementen.
 
 #### Backend
 
-Die Leaf-PHP-Api stellt die Texte über AJAX-Calls zur Verfügung. Bei jedem Wechsel der aktiven Sprache wird das gesamte jeweilige Inventar ausgeliefert.
+Die Leaf-PHP-Api stellt die Texte bei jedem Wechsel der aktiven Sprache zur Verfügung.
 
 * Leaf PHP ist in einer minimalen Konfiguration eingebunden - Leaf bare - mit Zusatz-Modulen FS(Filesystem) und Session. Siehe https://leafphp.dev/docs/cli/#creating-a-leaf-app für weitere Informationen.
+
+Die Texte sind als 'text1.txt'/'text2.txt' usw. im jeweiligen Sprachverzeichnis hinterlegt. Wie beschrieben, wird ein Absatz mit mehr als 40 Zeichen für die Darstellung am Bildschirm auf den folgenden Abschnitt umgebrochen. Um die Abschätzung, ob ein Text geeignet ist, zu erleichtern, kann man diesen erst einmal als 'test.txt' erfassen. Existiert 'test.txt' und gibt es einen relevanten Inhalt, wird dieser ungeachtet der anderen Texte herangezogen. Ist man mit dem Inhalt zufrieden, kann 'test.txt' entsprechend umbenannt bzw. der Inhalt in eine weitere 'text[n].txt' verschoben werden.
 
 <a name="TODO"></a>
 #### Noch zu Tun
