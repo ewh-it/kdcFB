@@ -1,0 +1,7 @@
+{
+    "require": {
+        "leafs/leaf": "^3.0",
+        "leafs/session": "^1.1",
+        "leafs/fs": "^1.0"
+    }
+}

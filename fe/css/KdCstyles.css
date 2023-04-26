@@ -1,0 +1,359 @@
+*:disabled {
+    opacity: 1;
+    font-weight: 500;
+}
+body {
+    background-color: rgb(2, 6, 123);
+    color: white;
+    font-family: DM Sans, sans-serif;
+    font-size: 14px;
+}
+h1, h2, h3, h4, h5, h6 {margin: 0px; font-size: 18px;}
+.flex { display: flex; }
+.center-all {
+    justify-content: center;
+    align-items: center;
+}
+.center-between {
+    justify-content: space-between;
+    align-items: center;
+}
+.center-start {
+    justify-content: flex-start;
+    align-items: center;
+}
+.h-screen { height: 100vh; }
+img {
+    height: 35px;
+    margin-right: 15px;
+}
+p { color: rgb(167, 185, 185);}
+.mt-1 { margin-top: 10px; }
+.mt-2 { margin-top: 20px; }
+.mt-3 { margin-top: 30px; }
+.ml-1 { margin-left: 10px; }
+.ml-2 { margin-left: 20px; }
+.ml-3 { margin-left: 30px; }
+.mr-1 { margin-right: 10px; }
+.mr-2 { margin-right: 20px; }
+.mr-3 { margin-right: 30px; }
+
+.base-color {
+    background-color: rgb(240, 240, 240);
+}
+.hid-line {
+    visibility: hidden;
+}
+.nope {
+    pointer-events: none;
+}
+
+#container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1350px;
+    height: 800px;
+    padding: 20px;
+    top: 120px;
+    display: grid;
+    grid-template-columns: 150px 1200px;
+    grid-template-rows: 800px;
+}
+#concol1 {
+    grid-column: 1;
+    grid-row: 1;
+/*   border: 1px solid red;     */
+}
+    #bg-flags {
+        position: relative;
+        top: -2%;
+        height: 85%;
+    /*    border: 1px solid rgb(95, 100, 87);       */
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        width: 90%;
+    }
+    .flags {
+        margin: 3%;
+        display: inline-flex;
+        padding: 10px;
+    }
+    .flags > * > button {
+        border: 0px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+    .flags > * > button:hover {
+        border: 2px solid rgb(2, 6, 123);
+    }
+    .flags > .flag-b > button {
+        border: 3px solid rgb(2, 6, 123);
+    }
+    .flag-s {
+        width: 64%;
+        height: 8%;
+    }
+    .flag-b {
+        width: 80%;
+        height: 10%;
+    }
+    
+    
+#concol2 {
+    grid-column: 2;
+    grid-row: 1;
+/*    border: 1px solid red;        */
+}
+    #bg-header {
+        display: flex;
+        width: 100%;
+        height: 15%;
+        flex-direction: row;
+        justify-content: space-between;
+/*       border: 3px solid rgb(95, 100, 87);        */
+    }
+    #bg-title {
+        width: 60%;
+        height: 90%;
+    }
+        #bg-title > p {
+            color: rgb(6, 1, 40);
+            background-color: rgb(255, 255, 255);
+            margin: 10px 0;
+            padding: 5px;
+            font-weight: 500;
+            font-size: 3rem;
+            font-family: 'Courier New', Courier, monospace;
+        }
+    .bg-info {
+        width: 20%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+        .bg-infoV {
+            display: flex;
+            flex-direction: row;
+            text-align: right;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(6, 1, 40);
+        }
+        .bg-infoV > label {
+            display: inline-block;
+            min-width: 70%;
+        }
+        .bg-infoV > input {
+            display: inline-block;
+            width: 15%;
+            text-align: right;
+            margin-left: 3%;
+            border: 0;
+        }
+        .bg-infoVl1 {
+            font-size: 1.2rem;
+            margin-top: 5%;
+            margin-bottom: 1%;
+        }
+        .bg-infoVl2 {
+            font-size: 1rem;
+            margin-top: 1%;
+            margin-bottom: 5%;
+        }
+        .bg-info-Fv {
+            font-size: 1.3rem;
+        }
+
+#bg-box {
+    width: 100%;
+    height: 80%;
+    padding: 10px;
+/*    border: 3px solid rgb(95, 100, 87);               */
+    display: grid;
+    grid-template-columns: 1050px 150px;
+    grid-template-rows: 700px;
+    }
+    #boxcol1 {
+        grid-column: 1;
+        grid-row: 1;
+/*        border: 1px solid rgb(28, 2, 121);                */
+    }
+
+    #bg-lines {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 1.4em;
+        font-family: 'Courier New', Courier, monospace;
+    }
+        .dLine {
+            width: 100%;
+            height: 60px;
+/*                  top right bottom left       */
+            padding: 4px 2px 4px 0;
+            margin: 0    0    6px  0;
+/*          border: 1px solid rgb(95, 100, 87);             */
+        }
+            .dLine1 {
+                width: 100%;
+                height: 50%;
+/*                border:1px dashed rgb(2, 6, 123);         */
+            }
+            .dLine2 {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                width: 100%;
+                height: 40%;
+/*                border:1px dashed rgb(2, 6, 123);         */
+            }
+            .dLine3 {
+                position: relative;
+                top: -12%;
+                width: 100%;
+                height: 10%;
+/*                border:1px dashed rgb(2, 6, 123);         */
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                color: rgb(6, 1, 40);
+                font-family: monospace;
+            }
+                .dLine3 > span {
+                    position: relative;
+                    top: -100%;
+                    width: 1.3rem;
+                    height: 1rem;
+                    padding-left: 4px;
+                    margin: 5px 1px 1px 1px;
+                    font-size: 1rem;
+                }
+#boxcol2 {
+        grid-column: 2;
+        grid-row: 1;
+        height: 96.3%;
+    /*    border: 1px solid rgb(28, 2, 121);        */
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+input.iFeld {
+    width: 1rem;
+    height: 1.3rem;
+    border: 1px solid rgb(2, 6, 123);
+    border-radius: 1.5px;
+    padding-left: 4px;
+    margin: 5px 1px 1px 1px;
+    font-size: 1rem;
+}
+input:enabled:not(:focus):not(:read-only):hover {
+    border: 2px solid rgb(2, 6, 123);
+    margin: 4px 0px 0px 0px;
+    cursor: crosshair;
+}
+input:focus {
+    border: 2px solid rgb(2, 6, 123);
+    background-color: rgb(197, 232, 253);
+    margin: 4px 0px 0px 0px;
+    cursor: text;
+}
+.sFeld {
+    width: 1rem;
+    height: 1.1rem;
+    background-color: rgb(240, 240, 240);
+    border: 1px dashed rgb(240, 240, 240);
+    color:rgb(13, 1, 153);
+    padding-left: 4px;
+    margin: 0 1px 5px 1px;
+    font-size: 1rem;
+}
+.tfx-done {
+    pointer-events: none;
+}
+input.iFeld.tfx-done {
+    color: rgb(13, 1, 153);
+    border: 1px dotted rgb(13, 1, 153);
+}
+.dummybox {
+    width: 100%;
+    height: 10%;
+/*    border: 1px solid green;              */
+}
+.naktion {
+    width: 90%;
+    height: 80px;
+    margin: 1px;
+    border: 2px solid rgb(1, 7, 56);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+    .naktion > button {
+        width: 80%;
+        height: 80%;
+        border: 0px;
+        background-color: rgb(255, 255, 255);
+        text-align: right;
+/*      top right bottom left       */
+        margin: 5% 0 0 15%;
+    }
+    .naktion > button:hover {
+        border-radius: 6px;
+/*        border: 1px solid rgb(1, 7, 56); */
+    }
+    .naktion > button:focus {
+        border-radius: 6px;
+/*        border: 1px solid rgb(1, 7, 56); */
+    }
+    .naktion > button > p {
+        margin: 0 0 0 10%;
+        color:rgb(13, 1, 153);
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    .naktion:hover {
+        border-radius: 6px;
+        border: 3px solid rgb(1, 7, 56);
+    }
+
+.msg-box {
+    position: absolute;
+    top: 600px;
+    left: 30%;
+    width: 360px;
+    height: 240px;
+    border-radius: 6px;
+    border: 3px solid rgb(1, 7, 56);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.msgdone {
+    height: 63%;
+/*      top right bottom left       */
+    padding-left: 5%;
+}
+    .msgdone > div {
+        height: 80%;
+        background-color: rgb(255, 255, 255);
+    }
+    .msgdone > div > p {
+        margin-left: 5%;
+        font-weight: 500;
+        font-size: 3rem;
+        font-family: 'Courier New', Courier, monospace;
+        color: rgb(6, 1, 40);
+    }
+.msg-box .naktion {
+    margin-left: 60%;
+    width: 130px;
+}
+.msg-box .naktion .aktinfo {
+    position: relative;
+}
+
+
+    

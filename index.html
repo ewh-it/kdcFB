@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>KdC - EW.Hit</title>
+        <meta charset="utf-8">
+        <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0" name="viewport">
+        <script src="fe/externals/i18n.js"></script>
+        <script type="module" src="fe/js/AAAhelpers.js"></script>
+        <script type="module" src="fe/js/KdCconfig.js"></script>
+        <script type="module" src="fe/js/KdCimport.js"></script>
+        <script type="module" src="fe/js/KdClayout.js"></script>
+        <script type="module" src="fe/js/KdCtranslate.js"></script>
+        <script type="module" src="fe/js/KdCtexte.js"></script>
+        <script type="module" src="fe/js/KdCmain.js"></script>
+        <link rel="stylesheet" type="text/css" href="fe/css/KdCstyles.css">
+        <link rel="stylesheet" type="text/css" href="fe/css/KdCflags.css">
+    </head>
+<body>
+    <div id="container" class="base-color">
+        <div id="concol1">
+            <div id="bg-flags" class="flags">
+            </div>
+            <div id="bg-again" class="naktion">
+                <button class="btnDA" name="btnDA">
+                    <p>Noch</p>
+                    <p>mal</p>
+                </button>
+            </div>
+        </div>
+        <div id="concol2">
+            <div id="bg-header">
+                <div id="bg-title" class="base-color"><p>_</p></div>
+                <div class="bg-info base-color" id="bg-ibox1">
+                    <div class="bg-infoV bg-infoVl1">
+                        <label for="cntZa">_</label>
+                        <input type="text" id="cntZa">
+                    </div>
+                    <div class="bg-infoV bg-infoVl2">
+                        <label for="cntZr">_</label>
+                        <input type="text" id="cntZr">
+                    </div>
+                </div>
+                <div class="bg-info base-color" id="bg-ibox2">
+                    <div class="bg-infoV bg-infoVl1 bg-info-Fv">
+                        <label for="cntFv">_</label>
+                        <input type="text" id="cntFv">
+                    </div>
+                    <div class="bg-infoV bg-infoVl2">
+                        <label for="cntZc">_</label>
+                        <input type="text" id="cntZc">
+                    </div>
+                </div>
+            </div>
+            <div id="bg-box">
+                <div id="boxcol1">
+                    <div id="bg-lines">
+                        <div id="Line1" class="dLine">
+                            <div class="dLine1"></div>
+                            <div class="dLine2"></div>
+                            <div class="dLine3"></div>
+                        </div>
+                        <div id="Line2" class="dLine">
+                            <div class="dLine1"></div>
+                            <div class="dLine2"></div>
+                            <div class="dLine3"></div>
+                        </div>
+                        <div id="Line3" class="dLine">
+                            <div class="dLine1"></div>
+                            <div class="dLine2"></div>
+                            <div class="dLine3"></div>
+                        </div>
+                        <div id="Line4" class="dLine">
+                            <div class="dLine1"></div>
+                            <div class="dLine2"></div>
+                            <div class="dLine3"></div>
+                        </div>
+                        <div id="Line5" class="dLine">
+                            <div class="dLine1"></div>
+                            <div class="dLine2"></div>
+                            <div class="dLine3"></div>
+                        </div>
+                        <div id="Line6" class="dLine">
+                            <div class="dLine1"></div>
+                            <div class="dLine2"></div>
+                            <div class="dLine3"></div>
+                        </div>
+                        <div id="Line7" class="dLine">
+                            <div class="dLine1"></div>
+                            <div class="dLine2"></div>
+                            <div class="dLine3"></div>
+                        </div>
+                        <div id="Line8" class="dLine">
+                            <div class="dLine1"></div>
+                            <div class="dLine2"></div>
+                            <div class="dLine3"></div>
+                        </div>
+                        <div id="Line9" class="dLine">
+                            <div class="dLine1"></div>
+                            <div class="dLine2"></div>
+                            <div class="dLine3"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="boxcol2">
+                    <div class="dummybox"></div>
+                    <div id="bg-newtext" class="naktion">
+                        <button class="btnNT" name="btnNT">
+                            <p>Neuer</p>
+                            <p>Text</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="msg-box" class="base-color msg-box">
+        <div id="msgdone" class="msgdone">
+            <div>
+                <p>Geschafft!</p>
+            </div>
+        </div>
+        <div class="naktion">
+            <button class="btnNT" name="btnNT">
+                <p>Neuer</p>
+                <p>Text</p>
+            </button>
+        </div>
+</div>
+    <script type="module">
+import { mainExec } from "./fe/js/KdCmain.js";
+mainExec("de");
+    </script>
+</body>
