@@ -1,9 +1,9 @@
 [![License: GNU AGPLv3](https://img.shields.io/badge/https://img.shields.io/badge/AGPL-3.0-lightgrey.svg)]
-![Latest Release](https://img.shields.io/github/v/release/ewh-it/kdcJS)
+![Latest Release](https://img.shields.io/github/v/release/ewh-it/KdCfb)
 
 Knack-den-Code - erkenne den verschlüsselten Text!
 
-* Copyright (C) 2019-2023 ewh-it - EW.H
+* Copyright (C) 2019-2024 ewh-it - EW.H
 
 Ein Text wird am Bildschirm verschlüsselt dargestellt, es gilt mit möglichst wenigen Fehlversuchen die korrekte Zuordnung der Zeichen zu erkennen.
 
@@ -87,7 +87,7 @@ Das Frontend-Modul im Browser ist Vanilla-JavaSript im ES6-Standard. Das Backend
 <a name="installation"></a>
 ## Installation
 
-1. Laden Sie die [Neueste Version] (https://github.com/ewh-it/KdC-js/releases/latest) herunter.
+1. Laden Sie die [Neueste Version] (https://github.com/ewh-it/KdCfb/releases/latest) herunter.
 2. Entpacken Sie es in ein Verzeichnis <ihre Wahl> auf dem Webserver.
 
 <a name="upgrade"></a>
@@ -122,3 +122,5 @@ Eine Sprache wird beschrieben durch
 In Schlagworten bedeutet das: GNU Affero General Public License v3.0.
 Die Lizendefinition kann unter https://choosealicense.com/licenses/agpl-3.0/
 eingesehen werden.
+
+i18n und Leaf PHP sind je unter MIT lizensiert.
